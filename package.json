@@ -1,0 +1,35 @@
+{
+  "name": "frontend-larger-apps",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.0",
+    "@tanstack/vue-query": "^5.18.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-vue-next": "^0.323.0",
+    "radix-vue": "^1.4.1",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@testing-library/vue": "^8.0.1",
+    "@types/node": "^20.11.16",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "autoprefixer": "^10.4.17",
+    "happy-dom": "^13.3.8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vitest": "^1.2.2",
+    "vue-tsc": "^1.8.25"
+  }
+}
